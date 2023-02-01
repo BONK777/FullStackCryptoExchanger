@@ -1,0 +1,47 @@
+[
+    {   "id": 1,
+        "name": "BTC",
+        "icon": "fa-brands fa-btc",
+        "category": "coin",
+        "coin": 1,
+        "rub": 1613513,
+        "usd": 23084,
+        "eur": 21191,
+        "kzt": 9578122,
+        "uah": 845798
+    },
+    {   "id": 2,
+        "name": "ETH",
+        "icon": "fa-brands fa-ethereum",
+        "category": "coin",
+        "coin": 1,
+        "rub": 110431,
+        "usd": 1580,
+        "eur": 1450,
+        "kzt": 727633,
+        "uah": 57885
+    },
+    {   "id": 3,
+        "name": "Litecoin",
+        "icon": "fa-brands fa-litecoin-sign",
+        "category": "coin",
+        "coin": 1,
+        "rub": 6680,
+        "usd": 95,
+        "eur": 88,
+        "kzt": 44045,
+        "uah": 3498
+    },
+    {   "id": 4,
+        "name": "VIA",
+        "icon": "fa-brands fa-viacoin",
+        "category": "coin",
+        "coin": 1,
+        "rub": 4,
+        "usd": 0.06,
+        "eur": 0.05,
+        "kzt": 30,
+        "uah": 2.39
+    }
+]
+  

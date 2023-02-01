@@ -1,0 +1,76 @@
+<div class="cards">
+  <div class="card">
+    <div class="header__card">
+      <nav class="nav__card">
+        <h3>Отдаете</h3>
+        <p>500 / 300000</p>
+      </nav>
+      <input type="text" placeholder="500" class="inp__data">
+      <!-- <label for="">rub</label> -->
+    </div>
+    <div class="main__card">
+      <mat-chip-listbox aria-label="Fish selection">
+        <mat-chip-option style="font-size: 11px;" selected>все</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">rub</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">usd</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">eur</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">uah</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">kzt</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">coin</mat-chip-option>
+      </mat-chip-listbox>
+      <div class="data-container">
+        <div class="data-list" *ngFor="let item of dataCurrency">
+          <i [class]="item.icon"></i>
+          <div class="data">{{item.name}}</div>
+            <mat-checkbox class="example-margin" color="primary"></mat-checkbox>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="card">
+    <div class="header__card">
+      <div class="nav__card">
+        <h3>Получаете</h3>
+        <div class="discount">
+          <p>Скидка 0%</p>
+        </div>
+      </div>
+      <input type="text" placeholder="0,00028474" class="inp__data">
+      <!-- <label for="">btc</label> -->
+    </div>
+    <div class="main__card">
+      <mat-chip-listbox aria-label="Fish selection">
+        <mat-chip-option style="font-size: 11px;">все</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">rub</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">usd</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">eur</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">uah</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">kzt</mat-chip-option>
+        <mat-chip-option style="font-size: 11px;">coin</mat-chip-option>
+      </mat-chip-listbox>
+    </div>
+  </div>
+  <div class="card">
+    <div class="header__card bg0">
+      <div class="nav__card">
+        <h3>Ввод данных</h3>
+        <div class="discount">
+          <p>Обновление курса</p>
+        </div>
+      </div>
+      <input type="text" placeholder="0,00028474" class="inp__data">
+      <input type="text" placeholder="0,00028474" class="inp__data">
+      <!-- <label for="">btc</label> -->
+    </div>
+    <div class="main__card output-data">
+      <input type="text" placeholder="0,00028474" class="inp__data bor1">
+      <input type="text" placeholder="0,00028474" class="inp__data bor1">
+      <input type="text" placeholder="0,00028474" class="inp__data bor1">
+      <input type="text" placeholder="0,00028474" class="inp__data bor1">
+      <div class="submit">
+        <p class="submit-txt" for="">Нажимая на кнопку "Перейти к оплате", я соглашаюсь с <a href="" class="submit-link">правилами обмена.</a></p>
+        <button class="sale">Перейти к оплате</button>
+      </div>
+    </div>
+  </div>

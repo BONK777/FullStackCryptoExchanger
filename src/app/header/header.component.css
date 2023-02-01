@@ -1,0 +1,23 @@
+header {
+    height: 5vh;
+    padding: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 0 #000;
+    min-height: 5vh;
+}
+
+a {
+    font-size: 2rem;
+    color: #000;
+    text-transform: uppercase
+}
+
+.logo-name {
+    transition: 0.3s;
+}
+
+.logo-name:hover {
+    color: #3f51b5;
+}

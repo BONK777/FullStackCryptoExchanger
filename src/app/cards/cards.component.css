@@ -1,0 +1,111 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    width: 500px;
+    height: 700px;
+    background-color: #fff;
+}
+
+.header__card {
+    background-color: #3f51b5;
+    border-radius: 10px 10px 0 0;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.nav__card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inp__data {
+    width: 320px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+h3, p {
+    margin: 0;
+    color: #fff;
+}
+
+.main__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.output-data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 55vh;
+}
+
+.bor1 {
+    border: 1px solid;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.submit-txt {
+    color: #999;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+}
+
+.bg0 {
+    /* background: none; */
+}
+
+.sale {
+    border: none;
+    outline: none;
+    background-color: #3f51b5;
+    color: #fff;
+    border-radius: 10px;
+    width: 320px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column  ;
+}
+
+.data-list {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+i{
+    font-size: 1rem;
+    text-align: center;
+  }
